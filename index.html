@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏱ Stopwatch App</h1>
+    <div id="display">00:00:00.000</div>
+
+    <div class="buttons">
+      <button onclick="start()">Start</button>
+      <button onclick="pause()">Pause</button>
+      <button onclick="reset()">Reset</button>
+      <button onclick="lap()">Lap</button>
+      <button onclick="clearLaps()">Clear Laps</button>
+    </div>
+
+    <div class="lap-section">
+      <h2>Lap Times</h2>
+      <ul id="laps"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
